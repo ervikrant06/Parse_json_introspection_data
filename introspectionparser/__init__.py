@@ -136,12 +136,10 @@ def check(input_values):
     else:
         display(input_values)
 
-def input_validation():
+def main():
     '''
     Main menu input from user and check whether it requires nested menu or
     not.
     '''
     inputvalues=str(input("Enter one numeric value: "))
     check(int(inputvalues))
-
-input_validation()
