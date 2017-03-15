@@ -25,12 +25,18 @@ python setup.py install
 pip install prettytable
 ~~~
 
-# Usage of script
+# Usage
+
+~~~
+introspectionparser <inspected data in json format>
+~~~
+
+# Examples
 
 - To get the CPU information.
 
 ~~~
-$ python parsing_introspection_data.py inspector_data-5d25193b-340c-4d4b-80fe-5b4437d2b904
+$ introspectionparser inspector_data-5d25193b-340c-4d4b-80fe-5b4437d2b904
 1: all_interfaces
 2: boot_interface
 3: cpu_arch
@@ -66,7 +72,7 @@ Enter one numeric value: 1
 - To get the disk information. 
 
 ~~~
-$ python parsing_introspection_data.py inspector_data-5d25193b-340c-4d4b-80fe-5b4437d2b904
+$ introspectionparser inspector_data-5d25193b-340c-4d4b-80fe-5b4437d2b904
 1: all_interfaces
 2: boot_interface
 3: cpu_arch
