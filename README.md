@@ -1,6 +1,30 @@
 # Parse_json_introspection_data
 python script to parse the json introspection data of overcloud nodes
 
+# Install
+
+~~~
+pip install introspectionparser
+~~~
+
+# Manual install
+
+~~~
+# Clone this repo
+git clone https://github.com/ervikrant06/Parse_json_introspection_data
+
+# Install
+python setup.py install
+~~~
+
+# Requirements
+
+(Ignore if installing using pip)
+
+~~~
+pip install prettytable
+~~~
+
 # Usage of script
 
 - To get the CPU information.
